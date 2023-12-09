@@ -1,0 +1,290 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../font-family/Raleway-VariableFont_wght.ttf);
+}
+
+html {
+    background: black;
+}
+
+* {
+    text-align: center;
+    position: relative;
+    font-family: Raleway;
+}
+
+body {
+    display: contents;
+    width: 100%;
+    min-width: 1440px;
+    min-height: 2491px;
+}
+
+header {
+    background: rgb(14, 46, 59);
+    height: 24.2874%;
+    min-height: 605px;
+}
+
+.banner {
+    height: 24.2874%;
+    min-height: 605px;
+    background-image: url(../images/banner.png);
+    border-bottom: thin;
+    border-style: solid;
+    border-color: #33A8DB;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+}
+
+.banner-content {
+    font-family: Raleway;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.884) 0%, rgba(49, 169, 221, 0.068) 100%);
+    padding-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo,
+.banner h1,
+.banner p {
+    margin: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    box-shadow: 0px 0px 100px 100px rgba(10, 66, 150, 0.151);
+    border-radius: 100%;
+    border-style: solid;
+    background-color: #0000006c;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    box-shadow: inset;
+    text-shadow: 3px 3px 3px black;
+    background: rgba(255, 255, 255, 1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner button {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    padding: 19px 91px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(49, 168, 221, 1);
+    text-transform: uppercase;
+    border-width: medium;
+    border-color: #1472B7;
+    margin: 60px;
+}
+
+main {
+    background: black;
+    top: 0px;
+}
+
+main p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    background: #FFFFFF;
+}
+
+#course-content {
+    background: black;
+    width: 100vw;
+    height: 22.4809%;
+    min-height: 560px;
+    border: 0px, 0px, 1px, 0px;
+    border-bottom: thin;
+    border-style: solid;
+}
+
+#course-content h2 {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    color: rgba(51, 168, 219, 1);
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#course-content p {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.module {
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+    background: linear-gradient(0deg, #252525, #252525),
+        linear-gradient(0deg, #33A8DB, #33A8DB);
+    border-color: #1472B7;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 30px;
+    padding: 25px;
+    width: 50%;
+    margin: 50px auto;
+    color: rgba(255, 255, 255, 1);
+}
+
+.module span {
+    color: rgba(51, 168, 219, 1);
+}
+
+
+#transform-world {
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 14.5724%;
+    min-height: 363px;
+    border: 1px, 1px, 1px, 0px;
+}
+
+#transform-world p {
+    white-space: pre-wrap;
+    top: 100px;
+    left: 100px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 290px;
+    height: 140px;
+    background: rgba(255, 255, 255, 1);
+    filter: drop-shadow(3px 2px 3px rgba(51, 168, 219, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#professional-challenges * {
+    position: relative;
+    margin-bottom: 0%;
+    padding: 20px 20px;
+}
+
+#professional-challenges {
+    width: 100vw;
+    height: 31.8346%;
+    min-height: 963px;
+    border-top: thin;
+    border-color: #1472B7;
+    border-style: solid;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#professional-challenges h2 {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 76px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    background: #33A8DB;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#professional-challenges p {
+    width: 50vw;
+    margin: 0 auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    position: bottom;
+    border-top: #1472B7 medium;
+    border-style: solid;
+    width: 100vw;
+    height: 6.8245%;
+    min-height: 170px;
+    min-height: 170px;
+    bottom: 0%;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%),
+        linear-gradient(0deg, #33a9db00, #33a9db00);
+}
+
+footer p {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: white;
+  
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(49, 168, 221, 1);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+footer img {
+    padding-top: 3%;
+    margin: auto;
+}
